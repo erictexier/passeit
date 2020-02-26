@@ -1,0 +1,5 @@
+# Trouvez l’IP qui vous a été assignée par le serveur dhcp
+
+ipconfig getpacket en0 | grep yiaddr | cut -d ' ' -f3
+or 
+ifconfig en0 | grep "inet " | awk '{print $2}'

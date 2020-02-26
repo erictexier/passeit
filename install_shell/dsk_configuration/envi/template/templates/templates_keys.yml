@@ -1,0 +1,424 @@
+# @brief: The keys section contains the definitions for all the different keys
+#         that are being used by Sgtk. A key is a magic token that is replaced
+#         by a value at runtime, for example {Shot}. The section below tells Sgtk
+#         which data types and formats to expect for each key.
+
+
+description: The keys section contains the definitions for all the different keys
+             that are being used by Dsk. A key is a magic token that is replaced
+             by a value at runtime, for example {Shot}. The section below tells Dsk
+             which data types and formats to expect for each key.
+
+
+
+keys:
+    ############################################################################
+    #
+    #                                Envi
+    #
+    ############################################################################
+    # Config
+    Config:
+      type: str
+    # Pack
+    Pack:
+      type: str
+    # (for later)
+    PackType:
+      type: str
+
+    ############################################################################
+    #
+    #                               Shotgun entities
+    #
+    ############################################################################
+
+    # Shotgun sequence name
+    Sequence:
+      type: str
+      shotgun_entity_type: Shot
+      shotgun_field_name: sg_sequence.Sequence.code
+
+    # Shotgun shot name
+    Shot:
+      type: str
+      shotgun_entity_type: Shot
+      shotgun_field_name: code
+
+    # Shotgun step name
+    Step:
+      type: str
+      shotgun_entity_type: Step
+      shotgun_field_name: short_name
+
+    # Shotgun department name
+    Department:
+      type: str
+      shotgun_entity_type: Department
+      shotgun_field_name: short_name_dept
+
+
+    # Shotgun asset type
+    sg_asset_type:
+      type: str
+      shotgun_entity_type: Asset
+      shotgun_field_name: sg_asset_type
+
+    # Shotgun asset name
+    Asset:
+      type: str
+      shotgun_entity_type: Asset
+      shotgun_field_name: code
+
+    # Shotgun user login
+    HumanUser:
+      type: str
+
+
+    # Shotgun current episode name
+    Project:
+      type: str
+      shotgun_entity_type: Project
+      shotgun_field_name: code
+
+
+    ############################################################################
+    #
+    #                               Name fields
+    #
+    ############################################################################
+
+    # Name of the files and images sequences
+    name:
+      type: str
+      filter_by: alphanumeric
+
+    # External file name
+    external_name:
+      type: str
+      alias: name
+
+    # define the Published File display name
+    publish_name:
+      type: str
+      alias: name
+
+    # Delivery name: it will be build dynamically with other template keys
+    delivery_name:
+      type: str
+
+    # Playlist name
+    playlist_name:
+      type: str
+
+    # name of the texure (could be coat, hat, ...)
+    texture_name:
+      type: str
+      filter_by: alpha
+
+    # name of the texture variant
+    variant_name:
+      type: str
+      filter_by: alpha
+
+    # name of the edit version
+    edit_name:
+      type: str
+
+    # name of the crop node
+    crop_name:
+      type: str
+      alias: name
+
+    # name of the actor
+    actor_name:
+      type: str
+      alias: name
+      choices: ["render", "anim"]
+
+    # name of the alembic anim export
+    abc_name:
+      type: str
+      alias: name
+
+    # name of the yeti anim export
+    yeti_name:
+      type: str
+      alias: name
+
+    # optional name
+    optional_name:
+      type: str
+      filter_by: alphanumeric
+      exclusions: ["src"]
+
+    # name of the camera track
+    cam_track_name:
+      type: str
+      alias: name
+      default: 'cam'
+
+
+    ############################################################################
+    #
+    #                               Type fields
+    #
+    ############################################################################
+
+    # Playlist type
+    playlist_type:
+      type: str
+
+    # Movie type
+    movie_type:
+      type: str
+
+    # type of the texture
+    texture_type:
+      type: str
+      filter_by: alpha
+
+    # subtype of the texture
+    texture_subtype:
+      type: str
+      filter_by: alpha
+
+
+
+
+    ############################################################################
+    #
+    #                        Version numbers and iterations
+    #
+    ############################################################################
+
+    # Nuke quickdailies iteration
+    iteration:
+      type: int
+      default: 1
+
+    # Version number (3 padded)
+    version:
+      type: int
+      format_spec: "03"
+
+
+    ############################################################################
+    #
+    #                                 Date and time
+    #
+    ############################################################################
+
+    # Date
+    timestamp:
+      type: str
+
+
+    ############################################################################
+    #
+    #                                 Image data
+    #
+    ############################################################################
+
+    # Image width
+    width:
+      type: int
+
+    # Image height
+    height:
+      type: int
+
+    # Layer name
+    layer_name:
+      type: str
+
+    # Aov name
+    aovname:
+      type: str
+#      filter_by: alphanumeric
+
+    # Shader Step
+    shader_step:
+      type: str
+      filter_by: alphanumeric
+
+    # Render scene declension
+    declension:
+      type: str
+      filter_by: '[A-Z]{1}'
+      default: 'A'
+
+    # image resolution (could be 720, 4K, ...)
+    resolution:
+      type: str
+      filter_by: alphanumeric
+
+    # image depth (could be 8i, 32f, 16h...)
+    depth:
+      type: str
+      filter_by: '[0-9]+[i,f,h,none]'
+
+
+    ############################################################################
+    #
+    #                          Frame numbers and padding
+    #
+    ############################################################################
+
+    # Sequence padding
+    SEQ:
+      type: sequence
+      format_spec: "04"
+
+    # A VIRER ?
+    SCAN_SEQ:
+      type: sequence
+      format_spec: "04"
+      alias: SEQ
+
+    # udim of the texture
+    udim:
+      type: str
+
+
+    ############################################################################
+    #
+    #                                   Scan data
+    #
+    ############################################################################
+
+    # Scan type
+    scan_type:
+      type: str
+
+    # Scan type number
+    scan_type_nb:
+      type: int
+      format_spec: "02"
+
+
+    ############################################################################
+    #
+    #                               File extensions
+    #
+    ############################################################################
+
+    # Images extensions
+    img_ext:
+      type: str
+      choices: ["exr", "dpx", "jpg", "jpeg", "tif", "tiff", "png", "tga", "tx", "map"]
+
+    # Jpeg extensions
+    jpg_ext:
+      type: str
+      choices: ["jpg", "jpeg", "JPG", "JPEG"]
+      alias: img_ext
+
+    # Hdr extensions
+    hdr_ext:
+      type: str
+      choices: ["exr", "hdr"]
+      alias: img_ext
+
+    # Delivery images extensions
+    delivery_ext:
+      type: str
+      choices: ["exr", "dpx"]
+      alias: img_ext
+
+    # texture extensions
+    texture_ext:
+      type: str
+      #choices: ["exr", "dpx", "jpg", "jpeg", "tif", "tiff", "png", "tga","JPEG","JPG"]
+      choices: ["map", "tx", "jpg", "JPG", "jpeg", "JPEG", "exr", "tif", "tiff", "png", "tga"]
+      alias: img_ext
+
+    # Movie extensions
+    movie_ext:
+      type: str
+      choices: ["mov", "mp4", "avi"]
+
+    # Lut extensions
+    lut_ext:
+      type: str
+      choices: ["3dl", "cube"]
+
+    # Raw extensions
+    raw_ext:
+      type: str
+      choices: ["RAW", "CR2", "raw", "cr2", "ARW", "arw", "NEF", "nef", "XPM", "xpm", "tif", "tiff"]
+
+    # After Effects extensions
+    ae_ext:
+      type: str
+      default: aep
+      choices: ["aep", "aepx"]
+
+    # Maya extensions
+    maya_ext:
+      type: str
+      default: ma
+      choices: ["ma", "mb"]
+
+    # Maya Camera extensions
+    maya_camera_ext:
+      type: str
+      default: ma
+      choices: ["ma", "mb", "abc"]
+
+    # Maya sound extensions
+    sound_ext:
+        type: str
+        choices: ["wav", "aif", "aiff"]
+
+    # Maya cache extentions
+    maya_cache_ext:
+        type: str
+        choices: ["xml", "mcc", "mcx"]
+
+
+    ############################################################################
+    #
+    #                                Softwares
+    #
+    ############################################################################
+
+    # To avoid have it hard coded in our python modules
+    software:
+      type: str
+      choices: ["maya", "nuke", "houdini", "aftereffects", "photoshop", "flame"]
+
+    #
+    # Software specifics
+    #
+
+    #---------------------------------------------------------------------------
+    # Houdini
+    #---------------------------------------------------------------------------
+    houdini_os:
+      type: str
+
+    node:
+      type: str
+
+    #---------------------------------------------------------------------------
+    # Maya
+    #---------------------------------------------------------------------------
+    camera:
+      type: str
+
+    #---------------------------------------------------------------------------
+    # Nuke
+    #---------------------------------------------------------------------------
+
+    # Represents the optional output name for frames written by the Shotgun Write Node
+    output:
+      type: str
+      filter_by: alphanumeric
+
+    # Nuke render eye
+    eye:
+      type: str
+
+
+

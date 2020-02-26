@@ -1,0 +1,2 @@
+# Identifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org
+nslookup -q=NS slash16.org | sed q | awk '{print $2}'

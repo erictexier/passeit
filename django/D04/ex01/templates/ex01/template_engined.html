@@ -1,0 +1,11 @@
+{% extends "ex01/base.html" %}
+{% block content %}
+    {% for content in contents %}
+        <h1> {{ content.tag }} </h1>
+        {% if content.tag == 'intro' %}
+            <h2> {{ content.data }} </h2>
+        {% else %}
+            <p> {{ content.data }} </p>
+        {% endif %}
+    {% endfor %}
+{% endblock content %}

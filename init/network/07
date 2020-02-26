@@ -1,0 +1,3 @@
+# Interrogez un serveur DNS externe sur le nom de domaine slash16.org (ex :
+# google 8.8.8.8)
+dig @8.8.8.8 slash16.org +short

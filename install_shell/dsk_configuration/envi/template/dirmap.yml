@@ -1,0 +1,33 @@
+# multi root support for window
+dirmaps:
+  - linux: "/mnt/prod"
+    darwin: "/mnt/prod"
+    windows: "O:/prod"
+
+  - linux: "/mnt/Q"
+    darwin: "/mnt/Q"
+    windows: "Q:"
+
+  - linux: "/mnt/R"
+    darwin: "/mnt/R"
+    windows: "R:"
+
+  - linux: "/mnt/T"
+    darwin: "/mnt/T"
+    windows: "T:"
+
+  - linux: "/home/personal_folders"
+    darwin: "/Users"
+    windows: "Y:/Personal Folders"
+
+  - linux: "/mnt/Y"
+    darwin: "/mnt/Y"
+    windows: "Y:"
+
+  - linux: "/mnt/Z"
+    darwin: "/mnt/Z"
+    windows: "Z:"
+
+  - linux: "/var/tmp"
+    darwin: "/var/tmp"
+    windows: "C:/tmp"

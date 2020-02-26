@@ -1,0 +1,3 @@
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' spawning-pool
+
+#docker inspect -f '{{.Config.Env}}' spawning-pool

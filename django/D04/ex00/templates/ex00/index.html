@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102240749-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-102240749-1');
+  </script>
+  
+
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>“Ex00 : Markdown Cheatsheet.”</title>
+
+  <meta name="description" content="A quick reference to the Markdown syntax.">
+  <meta content="Matt Cone and contributors" name=author>
+  <meta name="keywords" content="Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial">
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.markdownguide.org/cheat-sheet/" />
+  <meta property="og:title" content="Markdown Cheat Sheet | Markdown Guide" />
+  <meta property="og:description" content="A quick reference to the Markdown syntax." />
+  <meta property="og:image" content="https://www.markdownguide.org/assets/images/markdown-guide-og.jpg" />
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/bundles/2cc5944412d3c5855eb1f26f2dc9a339c6170fff.css'/>
+  
+  
+
+  
+  
+  
+
+  <link rel="canonical" href="https://www.markdownguide.org/cheat-sheet/">
+
+  <script src='https://d33wubrfki0l68.cloudfront.net/bundles/2c5110a7ae8f1f020352b27cb55a6d475561dbe9.js'></script>
+  <script defer src='https://d33wubrfki0l68.cloudfront.net/bundles/1066bc339a3beded5f6c4279870b406c047460fe.js'></script>
+</head>
+
+  <body data-spy="scroll" data-target="#toc">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mdg-nav">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="https://d33wubrfki0l68.cloudfront.net/f1f475a6fda1c2c4be4cac04033db5c3293032b4/513a4/assets/images/markdown-mark-white.svg" height="23" class="d-inline-block align-top" alt="" style="margin-top: 4px; padding-right: 10px">
+      Markdown Guide
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="/getting-started/">Get Started</a>
+        <a class="nav-item nav-link active" href="/cheat-sheet/">Cheat Sheet</a>
+        <a class="nav-item nav-link " href="/basic-syntax/">Basic Syntax</a>
+        <a class="nav-item nav-link " href="/extended-syntax/">Extended Syntax</a>
+        <a class="nav-item nav-link " href="/tools/">Tools</a>
+        <a class="nav-item nav-link " href="/book/">Book</a>
+      </div>
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0">
+    </form>
+  </div>
+</nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="no-anchor" data-toc-skip>Markdown Cheat Sheet</h1>
+        <p>A quick reference to the Markdown syntax.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <h2 id="overview">Overview</h2>
+
+<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to our reference guides for <a href="/basic-syntax">basic syntax</a> and <a href="/extended-syntax">extended syntax</a>.</p>
+
+<h2 id="basic-syntax">Basic Syntax</h2>
+
+<p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Markdown Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/basic-syntax/#headings">Heading</a></td>
+      <td><code># H1<br />
+          ## H2<br />
+          ### H3</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#bold">Bold</a></td>
+      <td><code>**bold text**</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#italic">Italic</a></td>
+      <td><code>*italicized text*</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#blockquotes-1">Blockquote</a></td>
+      <td><code>&gt; blockquote</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#ordered-lists">Ordered List</a></td>
+      <td><code>
+        1. First item<br />
+        2. Second item<br />
+        3. Third item<br />
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#unordered-lists">Unordered List</a></td>
+      <td>
+        <code>
+          - First item<br />
+          - Second item<br />
+          - Third item<br />
+        </code>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#code">Code</a></td>
+      <td><code>`code`</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rule</a></td>
+      <td><code>---</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#links">Link</a></td>
+      <td><code>[title](https://www.example.com)</code></td>
+    </tr>
+    <tr>
+      <td><a href="/basic-syntax/#images-1">Image</a></td>
+      <td><code>![alt text](image.jpg)</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="extended-syntax">Extended Syntax</h2>
+
+<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Markdown Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/extended-syntax/#tables">Table</a></td>
+      <td><code>
+          | Syntax      | Description |<br />
+          | ----------- | ----------- |<br />
+          | Header      | Title       |<br />
+          | Paragraph   | Text        |
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Block</a></td>
+      <td><code>```<br />
+      {<br />
+      &nbsp;&nbsp;"firstName": "John",<br />
+      &nbsp;&nbsp;"lastName": "Smith",<br />
+      &nbsp;&nbsp;"age": 25<br />
+      }<br />
+      ```
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
+      <td><code>
+        Here's a sentence with a footnote. [^1]<br /><br />
+
+        [^1]: This is the footnote.
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
+      <td><code>### My Great Heading {#custom-id}</code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#definition-lists">Definition List</a></td>
+      <td><code>
+        term<br />
+        : definition
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
+      <td><code>~~The world is flat.~~</code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#task-lists">Task List</a></td>
+      <td><code>
+        - [x] Write the press release<br />
+        - [ ] Update the website<br />
+        - [ ] Contact the media
+      </code></td>
+    </tr>
+  </tbody>
+</table>
+
+          <div class="card border-info" style="margin-top: 50px">
+  <h6 class="card-header no-anchor bg-info text-white" data-toc-skip>Want to learn more Markdown?</h6>
+  <div class="card-body">
+    <p class="card-text">
+      Don't stop now! 😎 Download the <a href="/book/">book</a>, star the <a href="https://github.com/mattcone/markdown-guide">GitHub repository</a>, and drop in to the <a href="https://join.slack.com/t/markdownguide/shared_invite/enQtNDA2Nzk2Mjc1NjA0LWM5ZTE1ZGZmOGVlMDM4OWExYTJhMWZiNTAzNWIyNjJmNDI2MWU5MDA5YWYwNjk0ZDliODQzZjEyNDNlMTU2NDY">Slack chat room</a>. If you liked this and want to receive new Markdown tutorials, enter your email address below. No spam!</p>
+
+    <form action="https://tinyletter.com/markdownguide" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/markdownguide', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <div class="form-group" style="margin-top: 20px">
+        <input type="email" class="form-control form-control-lg" name="email" id="tlemail" placeholder="Your email address" /><input type="hidden" value="1" name="embed" />
+      </div>
+      <button type="submit" class="btn btn-success">Stay Updated</button>
+    </form>
+
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-3 d-none d-md-block" id="sidebar">
+          <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1"></nav>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+  <div class="container">
+    <p style="font-size: 14px; font-weight: 600"><a href="/about/">About</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/contact/">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://join.slack.com/t/markdownguide/shared_invite/enQtNDA2Nzk2Mjc1NjA0LWM5ZTE1ZGZmOGVlMDM4OWExYTJhMWZiNTAzNWIyNjJmNDI2MWU5MDA5YWYwNjk0ZDliODQzZjEyNDNlMTU2NDY">Slack</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/mattcone/markdown-guide">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/api/v1/">API</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://app.termly.io/document/privacy-policy/1ca2b712-96e3-46bf-a8f1-d0035d389e7d">Privacy Policy</a></p>
+    <p style="margin-top: 15px; font-size: 14px;">&#169; 2019. A <a href="https://www.mattcone.com">Matt Cone</a> project. <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Made with 🌶️ in <a href="https://www.newmexico.org/">New Mexico</a>.</p>
+  </div>
+</footer>
+<script type='text/javascript' src='https://d33wubrfki0l68.cloudfront.net/js/c27f050a3dd251cfb00e5ada554b1c3412765a6d/assets/javascript/anchor.min.js'></script>
+<script>
+  anchors.options = {
+  placement: 'right',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
+</script>
+
+<!-- for search -->
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+docsearch({
+apiKey: '0125ba824e95b21d36ae268518067391',
+indexName: 'markdownguide',
+inputSelector: '#search-input',
+debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+
+  </body>
+</html>

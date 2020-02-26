@@ -1,0 +1,73 @@
+## INSTALL ANACONDA
+http://docs.anaconda.com/anaconda/install
+I choosed anaconda3 that has python3 as default python interperter
+It installed python3 using your .bash_profile (sur le mac) so you get python3 
+and a full set of python3 packages
+
+# from anaconda3 create a python2.7 
+(base) conda create -n python2 python=2.7 anaconda
+(base) source activate python2
+(python2) conda deactivate
+
+
+
+Create a supervisor file in /etc/supervisor/conf.d/ and configure it according to your requirements.
+
+# Mini Conda 2
+bash /Users/eric/Downloads/Miniconda2-latest-MacOSX-x86_64.sh
+
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+conda list --export > requirements.txt
+
+
+# update
+#conda update -n base -c defaults conda
+
+
+
+# forge
+# PySide2
+conda install -c conda-forge PySide2
+conda install -c conda-forge pyyaml
+conda install -c conda-forge pytest
+
+conda install  -c conda-forge supervisor
+conda install  -c conda-forge gunicorn
+
+conda install flask-sqlalchemy pymysql
+
+
+#https://stackoverflow.com/questions/41249401/difference-between-pip-freeze-and-conda-list
+
+conda install -c conda-forge flask-httpauth 
+conda install -c conda-forge/label/gcc7 flask-httpauth 
+conda install -c conda-forge/label/cf201901 flask-httpauth
+
+
+conda install node
+conda install zerorpc
+conda install PyZMQ
+conda install prompt_toolkit
+
+conda create --name webenv
+
+# python3env
+conda create -n python3 python=3
+
+conda install -c conda-forge PySide2
+conda install -c conda-forge six
+
+conda install -c conda-forge pyyaml
+conda install -c conda-forge pytest
+
+conda install  -c conda-forge supervisor # NOT POSSIBLE YET
+conda install  -c conda-forge gunicorn
+
+
+
+REZ:
+git clone ....
+python ./install.py -v /mnt/packages/rez 
+.....

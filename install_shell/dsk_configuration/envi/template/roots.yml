@@ -1,0 +1,17 @@
+primary:
+    {linux_path: /mnt/prod,
+    mac_path: /mnt/prod,
+    windows_path: null,
+    # indicates that this is the default storage root
+    default: true}
+
+secondary: 
+    {linux_path: /mnt/dev,
+    mac_path: /mnt/dev,
+    windows_path: null}
+
+cache: 
+    {linux_path: /mnt/dev/cache,
+    mac_path: /mnt/dev/cache,
+    windows_path: null}
+

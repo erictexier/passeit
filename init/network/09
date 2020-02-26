@@ -1,0 +1,2 @@
+dig @8.8.8.8 42.fr +short
+#dig +trace +nodnssec www.erictexier.online SOA | grep 'SOA[[:blank:]]'

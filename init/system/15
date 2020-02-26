@@ -1,0 +1,1 @@
+kill %1 if process in bg, ctrl c otherwise

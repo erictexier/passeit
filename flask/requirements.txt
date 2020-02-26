@@ -1,0 +1,10 @@
+conda install -y flask-wtf
+conda install -y -c conda-forge flask-sqlalchemy
+conda install -y psycopg2
+conda install -y flask-migrate
+conda install -y -c conda-forge flask-bcrypt
+conda install -y flask-login
+conda install -y flask-mail
+conda install -y pillow
+conda install -y Authlib
+conda install -y Flask-OAuthlib

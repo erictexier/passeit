@@ -1,0 +1,10 @@
+errror:
+ATTENTION !!
+DAY : 03
+EXERCISE : 05
+Houston to Tranquility Base
+Il y a bien un oubli dans le proto:
+reg_log_loss_(y_true, y_pred, m, theta, lambda_, eps=1e-15)
+avec:
+y_true (les valeurs de Y, les vrais)
+y_pred (=h(X))

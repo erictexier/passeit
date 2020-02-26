@@ -1,0 +1,6 @@
+includes:
+
+    # include the three sections: keys, paths and strings
+    - templates/templates_keys.yml
+    - templates/templates_paths.yml
+#    - templates/templates_strings.yml

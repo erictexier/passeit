@@ -1,0 +1,19 @@
+##### STUDIO FOR ENVI  mnt here represent a root network path (mount)
+#export DSK_STUDIO_ROOT="/mnt"
+#export DSK_ENV_ROOT=${DSK_STUDIO_ROOT}/dev
+
+# when envi install
+#export DSKENV=${DSK_ENV_ROOT}/install/dskenvi
+#export DSKENVPATH=${DSK_ENV_ROOT}/dsk_configuration/envi
+
+
+# access to envi python code
+#export PYTHONPATH=${DSKENV}/python${PYTHONPATH:+:${PYTHONPATH}}
+
+#envi() {
+#    source $DSKENV/bin/mac/envi_bsh $*
+}
+#export -f envi
+
+#optional for prod disk allocation
+#export DSK_DIRMAP_FILE=${DSKENVPATH}/template/dirmap.yml

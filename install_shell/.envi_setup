@@ -1,0 +1,25 @@
+##### STUDIO FOR ENVI  mnt here represent a root network path (mount)
+export DSK_STUDIO_ROOT="$HOME/mnt"
+export DSK_ENV_ROOT=${DSK_STUDIO_ROOT}/dev
+###### ENVI #####
+export DSKENV=${DSK_ENV_ROOT}/${USER}/packages/dsk_envi  # envi repo root
+export DSKENVPATH=${DSK_ENV_ROOT}/${USER}/dsk_configuration/envi  # config dir (sub folder required configs_and_packs and template)
+
+# when envi install
+#export DSKENV=${DSK_ENV_ROOT}/install/dsk_envi
+#export DSKENVPATH=${DSK_ENV_ROOT}/dsk_configuration/envi
+
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='mac'
+fi
+# access to envi python code
+#export PYTHONPATH=${DSKENV}/python${PYTHONPATH:+:${PYTHONPATH}}
+
+envi() {
+    source $DSKENV/bin/${platform}/envi_bsh $*
+}
+export -f envi

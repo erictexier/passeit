@@ -1,0 +1,7 @@
+{% extends "ex01/base.html" %}
+{% block content %}
+    {% for content in contents %}
+        <h3> {{ content.tag }} </h3>
+        <p> {{ content.data }} </p>
+    {% endfor %}
+{% endblock content %}

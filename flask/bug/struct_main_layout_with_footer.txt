@@ -1,0 +1,288 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://passeit.com/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<script>var et_site_url='https://passeit.com';var et_post_id='22';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>Home Studio | Experimentation</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Home Studio &raquo; Feed" href="https://passeit.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Home Studio &raquo; Comments Feed" href="https://passeit.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/passeit.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="Divi Enfant par Eclectic v.1.0" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://passeit.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://passeit.com/wp-content/themes/Divi/style.dev.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='https://passeit.com/wp-content/themes/DiviChildEclectic/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css'  href='https://passeit.com/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://passeit.com/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='msl-main-css'  href='https://passeit.com/wp-content/plugins/master-slider/public/assets/css/masterslider.main.css?ver=3.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='msl-custom-css'  href='https://passeit.com/wp-content/uploads/master-slider/custom.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://passeit.com/wp-includes/css/dashicons.min.css?ver=5.3.2' type='text/css' media='all' />
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://passeit.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://passeit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/DiviChildEclectic/js/custom-scripts.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"passeit.com"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/core/admin/js/recaptcha.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://passeit.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://passeit.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://passeit.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel="canonical" href="https://passeit.com/" />
+<link rel='shortlink' href='https://passeit.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://passeit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpasseit.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://passeit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpasseit.com%2F&#038;format=xml" />
+<script>var ms_grabbing_curosr = 'https://passeit.com/wp-content/plugins/master-slider/public/assets/css/common/grabbing.cur', ms_grab_curosr = 'https://passeit.com/wp-content/plugins/master-slider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 3.5.8 - Responsive Touch Image Slider | avt.li/msf" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPR3Q8L');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://passeit.com/wp-content/uploads/2019/04/cropped-screenshot-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://passeit.com/wp-content/uploads/2019/04/cropped-screenshot-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://passeit.com/wp-content/uploads/2019/04/cropped-screenshot-180x180.png" />
+<meta name="msapplication-TileImage" content="https://passeit.com/wp-content/uploads/2019/04/cropped-screenshot-270x270.png" />
+<link rel="stylesheet" id="et-core-unified-22-cached-inline-styles" href="https://passeit.com/wp-content/et-cache/22/et-core-unified-22-15807056605164.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+<body data-rsssl=1 class="home page-template-default page page-id-22 _masterslider _ms_version_3.5.8 et_pb_button_helper_class et_vertical_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_split et_pb_footer_columns3 et_cover_background osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db">
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://passeit.com/">
+						<img src="https://passeit.com/wp-content/uploads/2019/04/screenshot.png" alt="Home Studio" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://passeit.com/blog/">Blog</a></li>
+<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="https://passeit.com/gallery/">Gallery</a></li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-304"><a href="https://passeit.com/test-slider/">Under Construction</a>
+<ul class="sub-menu">
+	<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22 current_page_item menu-item-216"><a href="https://passeit.com/" aria-current="page">Eclectic Studio Net</a></li>
+	<li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="https://passeit.com/test-slider/">Project</a></li>
+</ul>
+</li>
+<li id="menu-item-4560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4560"><a href="https://passeit.com/quick_view/">Overview</a></li>
+</ul>						</nav>
+					
+					
+					
+										<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://passeit.com/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-22" class="post-22 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div id="et-boc" class="et-boc">
+			
+		<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_animated et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0 et_hover_enabled et_pb_section_video_on_hover">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><p>Eclectic Studio Net</p></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>Text, photography, storyline</p></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_animated et_hover_enabled et_pb_bg_layout_light" href="/gallery" data-icon="&#x49;">Quick Tour</a>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
+				
+				
+				<a href="https://passeit.com/wp-content/uploads/2019/04/pastek-1.jpg" class="et_pb_lightbox_image" title=""><span class="et_pb_image_wrap "><img src="https://passeit.com/wp-content/uploads/2019/04/pastek-1.jpg" alt="" title="" srcset="https://passeit.com/wp-content/uploads/2019/04/pastek-1.jpg 800w, https://passeit.com/wp-content/uploads/2019/04/pastek-1-300x200.jpg 300w, https://passeit.com/wp-content/uploads/2019/04/pastek-1-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></span></a>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					
+				
+				
+			</div> <!-- .et_pb_section -->		</div><!-- .et_builder_inner_content -->
+	</div><!-- .et-l -->
+	
+			
+		</div><!-- #et-boc -->
+							</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				<div class="et_pb_section et_pb_section_3 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>Thank you:</p>
+<p>Training on learning Wordpress:<br /> <a href="https://coding-days.com/" title="In 5 days you learn everything you need">coding days</a></p>
+<p>Personal:<br /> <a href="https://www.imdb.com/name/nm1603123/">imdb<br /> </a><a href="https://www.linkedin.com/in/erictexier">linkedit</a></p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>usefull link:<br /><a href="https://www.vfxplatform.com">vfx reference plaform</a><br /> <a href="https://www.artella.com/home">artella</a></p>
+<p>Production tools site:<br /> <a href="https://www.cg-wire.com">cgwire</a><br /> <a href="https://www.shotgunsoftware.com/">shotgun software</a></p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>newsgroup:<br /> <a href="https://groups.google.com/a/shotgunsoftware.com/forum/#!forum/shotgun-dev">shotgun dev</a><br /> <a href="https://groups.google.com/forum/#!forum/alembic-discussion">alembic discussion group</a><br /> <a href="https://groups.google.com/forum/#!forum/rez-config">rez</a><br /> <a href="https://groups.google.com/forum/#!forum/usd-interest">usd-interest</a></p>
+<p>video:<br /> <a href="https://www.youtube.com/watch?v=kUoIbP1l9yA&amp;feature=share">SIGGRAPH 2018  Rob Bredow</a></p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->				
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-instagram">
+		<a href="https://www.instagram.com/texier.e" class="icon">
+			<span>Instagram</span>
+		</a>
+	</li>
+
+</ul><div id="footer-info">Created by Ecletic Studio Net</div>					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+		<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_section_0","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"2%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_button_0","style":"zoom","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_image_0","style":"zoomLeft","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"20%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+			</script>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPR3Q8L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-global-functions.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/jquery.mobile.custom.min.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/js/custom.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/js/smoothscroll.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/jquery.fitvids.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/waypoints.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/jquery.magnific-popup.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/passeit.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/passeit.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/passeit.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"8498754d3a","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"0f1ecb0c0e","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"22","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-scripts.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://passeit.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+</body>
+</html>

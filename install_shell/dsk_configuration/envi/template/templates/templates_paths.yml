@@ -1,0 +1,69 @@
+# @brief:  The paths section contains all the the key locations where files are
+#          to be stored by Sgtk Apps. Each path is made up of several keys
+#          (like {version} or {shot}) and these are defined in the keys section
+#          above.
+#          Apps use these paths as part of their configuration to define where
+#          on disk different files should go.
+
+
+description: The paths section contains all the the key locations where files are
+             to be stored by Sgtk Apps. Each path is made up of several keys
+             (like {version} or {shot}) and these are defined in the keys section
+             above.
+             Apps use these paths as part of their configuration to define where
+             on disk different files should go.
+
+
+paths:
+
+
+    ############################################################################
+    #
+    #                                 Root paths
+    #
+    ############################################################################
+
+    sequence_root: 
+      definition: '{Project}/sequences/{Sequence}'
+      root_name: primary
+    shot_root: '@sequence_root/{Shot}/{Step}'
+    asset_root: '{Project}/assets/{sg_asset_type}/{Asset}/{Step}'
+    references_root: '{Project}/references'
+    delivery_root: '{Project}/OUT'
+    in_root: '{Project}/IN'
+ 
+
+    ############################################################################
+    #
+    #                           Envi level paths
+    #
+    ############################################################################
+
+    envi_path: 
+        definition: '{Config}/configs_and_packs'
+        root_name: secondary
+    envi_info: 
+        definition: '@envi_path/envi_{name}.yml'
+        root_name: secondary
+    config_path: 
+        definition: '@envi_path/configs'
+        root_name: secondary
+    pack_path:
+        definition: '@envi_path/packs'
+        root_name: secondary
+
+    ############################################################################
+    #
+    #                           Project level paths
+    #
+    ############################################################################
+
+    ############################################################################
+    # References
+    #
+    # define the location of references images
+    project_reference_file: '@references_root/files/images/{name}_v{version}.{jpg_ext}'
+
+    # define the location of the Photoshop scripts references
+    photoshop_project_reference_file: '@references_root/files/photoshop/{name}_v{version}.psd'
+

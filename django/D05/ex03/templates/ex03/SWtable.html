@@ -1,0 +1,28 @@
+{% extends "ex03/base.html" %}
+{% block content %}
+
+<div class="panel panel-default">
+        <div class="panel-body">
+
+    <table id="glucose-table" class="display responsive" width="100%" style="cellpadding=20 cellspacing=20 padding:30px">
+        <thead>
+            <tr>
+                {% for h in header_table %}
+                    <th class="all" style="padding:30px" ><center> {{ h }} </center></th>
+                {% endfor%}
+            </tr>
+        </thead>
+        {% for m in movie_list %}
+        <tr>
+            <td style="border: .5px solid black"> <center>{{m.title}}   </center></td>
+            <td style="border: .5px solid black"> <center>{{m.director}} </center></td>
+            <td style="border: .5px solid black"> <center>{{m.producer}} </center></td>
+            <td style="border: .5px solid black"> <center>{{m.release_date|date:"F-Y"}} </center></td>
+            <td style="border: .5px solid black"> {{m.opening_crawl}}</td>
+        </tr>
+        {% endfor movie_list%}
+    </table>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,35 @@
+###########################################
+# show specific setting
+###########################################
+
+domain: eclecticstudionet.com
+site: current
+config_data: /mnt/dev/dsk_configuration
+
+film:
+    fps:    24
+    width:  2048
+    height: 1107
+    aspect: 1.85
+    overscan: 1.1
+
+camera:
+    film_aperture_width: 1.748
+    film_aperture_height: 0.945
+    shutter_angle: 72
+
+playblast:
+    width:        960
+    height:       540
+    overscan:     1.0
+    gate_opacity: 1.0
+
+turntable:
+    width:        2048
+    height:       2048
+    movie_width:  720
+    movie_height: 720
+
+
+
+

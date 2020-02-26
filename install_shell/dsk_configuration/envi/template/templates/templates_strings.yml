@@ -1,0 +1,197 @@
+# @brief:  The strings section is similar to the paths section - but rather than
+#          defining paths on disk, it contains a list of strings. Strings are
+#          typically used when you want to be able to configure the way data is
+#          written to shotgun - it may be the name field for a review version or
+#          the formatting of a publish.
+
+
+description: The strings section is similar to the paths section - but rather than
+             defining paths on disk, it contains a list of strings. Strings are
+             typically used when you want to be able to configure the way data is
+             written to shotgun - it may be the name field for a review version or
+             the formatting of a publish.
+
+
+
+strings:
+
+    # when a review version in shotgun is created inside of nuke, this is the
+    # name that is being given to it (the code field)
+    nuke_shot_version_name: "{Shot}_{name}_{output}_v{version}.{iteration}"
+    nuke_quick_shot_version_name: "{Shot}_{name}_quick_{iteration}"
+
+    nuke_asset_version_name: "{Asset}_{name}_{output}_v{version}.{iteration}"
+    nuke_quick_asset_version_name: "{Asset}_{name}_quick_{iteration}"
+
+
+    #---------------------------------------------------------------------------
+    #                              Deliveries
+    #---------------------------------------------------------------------------
+
+    # define the name of the delivery images
+    delivery_images_name: "{delivery_name}.{SEQ}.{delivery_ext}"
+
+    # define the name of the delivery movie
+    delivery_movie_name: "{delivery_name}.{movie_ext}"
+
+
+    #---------------------------------------------------------------------------
+    #                             Rendered Images
+    #---------------------------------------------------------------------------
+
+    #
+    # Nuke render images
+    #
+
+    # define the name of the Shotgun Version for the Nuke Shot render images
+    nuke_shot_render_version_name: "{name}[_{output}]_v{version}_{Shot}"
+
+    # define the name of the Shotgun Version for the Nuke Asset render images
+    nuke_asset_render_version_name: "{name}[_{output}]_v{version}_{Asset}"
+
+
+    #
+    # Maya render images
+    #
+
+    # define the name of the Shotgun Version for the Maya Shot rendered images
+    maya_shot_render_version_name: "{name}_{layer_name}_{camera}[_{aovname}]_v{version}_{Shot}"
+
+    # define the name of the Maya Shot rendered images
+    maya_shot_render_images_name: "{Shot}_{name}_{layer_name}_{camera}.v{version}"
+
+    # define the name of the Shotgun Version for the Maya Asset rendered images
+    maya_asset_render_version_name: "{name}_{layer_name}_{camera}[_{aovname}]_v{version}_{Asset}"
+
+    # define the name of the Maya Asset rendered images
+    maya_asset_render_images_name: "{Asset}_{name}_{layer_name}_{camera}.v{version}"
+
+
+    #---------------------------------------------------------------------------
+    #                                Deadline
+    #---------------------------------------------------------------------------
+
+    #
+    # Nuke Deadline job
+    #
+
+    # define the name of the Deadline job for the Shot context
+    nuke_shot_deadline_batch_job_name: "{Shot}_{name}.v{version}.nk"
+
+    # define the name of the Deadline job for the Asset context
+    nuke_asset_deadline_batch_job_name: "{Asset}_{name}.v{version}.nk"
+
+    #
+    # Maya Deadline job
+    #
+
+    # define the name of the Deadline job for the Shot context
+    maya_shot_deadline_batch_job_name: "{Shot}_{name}.v{version}.ma"
+
+    # define the name of the Deadline job for the Asset context
+    maya_asset_deadline_batch_job_name: "{Asset}_{name}.v{version}.ma"
+
+
+    #---------------------------------------------------------------------------
+    #                           Shotgun entity names
+    #---------------------------------------------------------------------------
+
+    #
+    # Shader
+    #
+
+    # define the name of a Shader entity into Shotgun
+    asset_shader_name: "{Asset}_{shader_step}_{layer_name}_v{version}"
+
+    #
+    # Texture
+    #
+
+    # define the name of the Asset texture name
+    asset_texture_name: "{Asset}_[{variant_name}]_{texture_name}_{texture_type}_[{texture_subtype}]_[{declension}]_{resolution}_{depth}[_v{version}]"
+
+    #asset_texture_name_unversioned: "{Asset}_[{variant_name}]_{texture_name}_{texture_type}_[{texture_subtype}]_[{declension}]_{resolution}_{depth}"
+    file_asset_publish_texture_images: '@asset_texture_name[.{udim}].{texture_ext}'
+
+    #file_asset_texture_name: "{Asset}_[{variant_name}]_{texture_name}_{texture_type}_[{texture_subtype}]_[{declension}]_{resolution}_{depth}_v{version}[.{udim}].{texture_ext}"
+
+
+    #---------------------------------------------------------------------------
+    #                            Extract scene names
+    #---------------------------------------------------------------------------
+
+    #
+    # Modeling
+    #
+
+    # define the name of the Maya model file
+    maya_model_file_display_name: "model"
+
+    # define the name of the Maya model source file
+    maya_model_src_file_display_name: '@maya_model_file_display_name_src'
+
+    #
+    # Rig
+    #
+    maya_rig_file_display_name: "rig"
+    maya_rig_src_file_display_name: '@maya_rig_file_display_name_src'
+
+    #
+    # CFX
+    #
+
+    # define the name of the Maya CFX file
+    maya_cfx_file_display_name: "cfx"
+
+    # define the name of the Maya CFX source file
+    maya_cfx_src_file_display_name: "@maya_cfx_file_display_name_src"
+
+    #
+    # Anim
+    #
+    # define the name of the Maya model file
+    maya_anim_file_display_name: "{Asset}_export_anim"
+
+    # define the name of the Maya model source file
+    maya_anim_src_file_display_name: "anim_src"
+
+    #
+    # Track
+    #
+    # define the name of the Maya track file
+    maya_track_file_display_name: "{Shot}_cam_track"
+
+    # define the name of the Maya model source file
+    maya_track_src_file_display_name: "@maya_track_file_display_name_src"
+
+
+    #
+    # Shaders
+    #
+
+    # define the name of the Maya shader file
+    maya_shader_file_display_name: "shader"
+
+    # define the name of the Maya shader assignation file
+    maya_shader_assignation_file_display_name: '@maya_shader_file_display_name_assignation'
+
+    # define the name of the Maya shader source file
+    maya_shader_source_file_display_name: '@maya_shader_file_display_name_src'
+
+    # define the name of the Maya shader reference edit file
+    maya_shader_ref_edits_file_display_name: '@maya_shader_file_display_name_ref_edits'
+
+
+    #---------------------------------------------------------------------------
+    #                            Maya general config
+    #---------------------------------------------------------------------------
+
+    #
+    # Namespace
+    #
+
+    # define the Maya namespace for the Shots
+    maya_shot_namespace: "{publish_name}_{iteration}"
+
+    # define the Maya namespace for the Assets
+    maya_asset_namespace: "{Asset}_{iteration}"

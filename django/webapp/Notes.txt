@@ -1,0 +1,14 @@
+problem:
+the table are note being created with migrate
+fix: 
+python manage.py migrate --run-syncdb
+
+
+
+ <div class="navbar">
+      {% include "psws/nav.html" %}
+</div>
+
+
+
+pip install django-crispy-forms

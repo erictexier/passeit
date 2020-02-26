@@ -1,0 +1,38 @@
+/home/eric/miniconda3/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS ad
+ds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+[2020-02-09 09:45:38,520] ERROR in app: Exception on /reset_password [POST]
+Traceback (most recent call last):
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/eric/workspace/passeit/flask/webapp/flask_blog/users/routes.py", line 88, in reset_request
+    send_reset_email(user)
+  File "/home/eric/workspace/passeit/flask/webapp/flask_blog/users/utils.py", line 29, in send_reset_email
+    mail.send(msg)
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "/home/eric/miniconda3/lib/python3.7/site-packages/flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "/home/eric/miniconda3/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/home/eric/miniconda3/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/home/eric/miniconda3/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/home/eric/miniconda3/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/home/eric/miniconda3/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused

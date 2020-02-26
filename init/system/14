@@ -1,0 +1,1 @@
+# Lancez en background la commande tail -f /var/log/syslog
